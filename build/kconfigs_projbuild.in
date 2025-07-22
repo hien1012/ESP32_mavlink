@@ -1,0 +1,5 @@
+source "C:/Users/Potato/ESP_IDF_project/ESP32_mavlink/components/bootloader/Kconfig.projbuild"
+source "C:/Users/Potato/ESP_IDF_project/ESP32_mavlink/components/esp_app_format/Kconfig.projbuild"
+source "C:/Users/Potato/ESP_IDF_project/ESP32_mavlink/components/esp_rom/Kconfig.projbuild"
+source "C:/Users/Potato/ESP_IDF_project/ESP32_mavlink/components/esptool_py/Kconfig.projbuild"
+source "C:/Users/Potato/ESP_IDF_project/ESP32_mavlink/components/partition_table/Kconfig.projbuild"

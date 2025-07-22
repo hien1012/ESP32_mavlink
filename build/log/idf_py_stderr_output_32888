@@ -1,0 +1,4 @@
+Compiler supported targets: xtensa-esp32-elf
+
+fatal: not a git repository (or any of the parent directories): .git
+fatal: not a git repository: C:/Users/Potato/ESP_IDF_project/ESP32_mavlink/components/openthread/openthread/../../../.git/modules/components/openthread/openthread
