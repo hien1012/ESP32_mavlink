@@ -58,7 +58,7 @@ void app_main(void)
                         ESP_LOGI("MAVLINK", "Heartbeat received: system status = %d,base_mode = [%d], custom = [%ld], type = [%d], auto_pilot = [%d], version = [%d]", hb.system_status, hb.base_mode, hb.custom_mode, hb.type, hb.autopilot, hb.mavlink_version);
                         break;
                     }
-                    /*case MAVLINK_MSG_ID_SYS_STATUS: {
+                    case MAVLINK_MSG_ID_SYS_STATUS: {
                         mavlink_sys_status_t sys;
                         mavlink_msg_sys_status_decode(&msg, &sys);
                         ESP_LOGI("MAVLINK", "drop rate: %d V", sys.drop_rate_comm);
@@ -99,7 +99,7 @@ void app_main(void)
                         mavlink_msg_highres_imu_decode(&msg, &imu);
                         ESP_LOGI("MAVLINK", "IMU: ax = %f, ay = %f, az = %f, temperature = %.2f", imu.xacc, imu.yacc, imu.zacc, imu.temperature);
                         break;
-                    }*/
+                    }
                 }
             }           
         }
